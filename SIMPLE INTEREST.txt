@@ -1,0 +1,9 @@
+public class Solution {
+    public static double calculateSimpleInterest(int p, int r, int t) {
+        double a = p;
+        double b = r;
+        double c = t;
+        double si = (a * b * c) / 100;
+        return si;
+    }
+}
