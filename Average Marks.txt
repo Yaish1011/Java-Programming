@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		int m1 , m2 , m3 ;
+
+		Scanner s = new Scanner(System.in);
+
+		String str = s.next();
+		int a1 = s.nextInt();
+		int a2 = s.nextInt();
+		int a3 = s.nextInt();
+		int avg = (a1 + a2 + a3)/3;
+
+		System.out.println(str);
+		System.out.print(avg);
+		
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+
+		
+	}
+
+}
