@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		
+
+	
+
+		Scanner s = new Scanner(System.in);
+
+		int a1 = s.nextInt();
+		int b1 = s.nextInt();
+		int a2 = s.nextInt();
+		int b2 = s.nextInt();
+
+		int aor = (a2-a1) * (b2-b1);
+
+		
+		System.out.print(aor);
+		 
+
+	}
+
+}
