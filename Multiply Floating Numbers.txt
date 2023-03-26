@@ -1,0 +1,10 @@
+public class Solution {
+    public static double multiplyFloatingNumbers(double f1, double f2) {
+       
+        
+        
+         double p = f1 * f2;
+
+         return p;
+    }
+}
